@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Starting your Lightweight Bitcoin Node..."
+echo "Starting Bitcoind... brrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr"
 
 CONF_FILE=/conf/pruned-bitcoin.conf
 
