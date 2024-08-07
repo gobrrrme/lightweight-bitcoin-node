@@ -16,6 +16,8 @@ ADD "https://raw.githubusercontent.com/bitcoin/bitcoin/master/share/rpcauth/rpca
 
 ADD "https://bitcoincore.org/bin/bitcoin-core-$bitcoinCoreVersion/bitcoin-$bitcoinCoreVersion-x86_64-linux-gnu.tar.gz" /tmp/bitcoincore.tar.gz
 
+RUN apt-get update && apt-get install -y libzmq3-dev
+
 WORKDIR /tmp
 
 RUN tar -xvzf /tmp/bitcoincore.tar.gz \
