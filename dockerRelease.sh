@@ -5,8 +5,8 @@ echo "Releasing version $VERSION ......"
 
 ./dockerBuild.sh
 
-IMAGENAME=lightweight-bitcoin-node
-USERNAME=thebitcoinprof
+IMAGENAME=bitcoind
+USERNAME=printergobrrr
 
 git tag -a "$VERSION" -m "Version $VERSION"
 git push origin "$VERSION"
